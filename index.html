@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        p{
+            color: lightgreen;
+            font-size: 6rem;
+        }
+        .p5{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2.5rem;
+        }
+        </style>
+        <script src="script.js"></script>
+</head>
+<body style="background-color: black;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    
+    <div style="display: inline;">
+        <h1 style="color: white;text-align: center;margin-bottom: 3rem;">Sign up today</h1>
+        <div id="form">
+            <form  style="color: white;text-align: center;font-size: 1.5rem;" autocomplete="on">
+                Name <input type="text" name="Name" id="name">
+                <br>
+                <br/>
+                Email <input type="email" name="email" id="email" >
+                <br>
+                <br/>
+                Phone Number <input type="text" name="num" id="phone_num">
+                <br>
+                <br>
+            </form>
+            
+        </div>
+        <div id="sub">
+            <input type="submit" value="Click Here" id="submit" onclick="fun1()">
+        
+        </div>
+        
+    </div>
+    <div id="info" style="display: none;">
+            <p id="p1" class="p5">Welcome</p>
+            <p id="p2" class="p5">email</p>
+            <p id="p3" class="p5">phone num</p>
+            <p id="p4" class="p5">Description</p>    
+    </div>
+    
+    
+</body>
+</html>
